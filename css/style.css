@@ -208,9 +208,13 @@ header .main .wrap .logo a img{/*width: 180px;*/ height: 30px;}
 #partner .wrap .cont_part ul li:nth-child(4) a{background-image: url(../images/client-7-1.png);}
 #partner .wrap .cont_part ul li:nth-child(5) a{background-image: url(../images/client-8.png);}
 
+
+#partner .wrap .cont_part ul li a{display: block; height: 220px; background-size: 80% auto; background-repeat: no-repeat; background-position: 50% 50%;}
+
+
 footer{background-color: #000; text-align: center;}
 
-footer p{display: inline-block; line-height: 60px;padding-left: 50px; padding-right: 50px; position: relative; color:#fff;}
+footer p{display: inline-block; line-height: 60px;padding-left: 50px; padding-right: 50px; position: relative; color:#fff; font-size: 14px;}
 footer p:before{content:""; display: block; position: absolute; top:0; left:0; width: 50px; height: 100%; background-image: url(../images/h1-slider1-img-1.png); background-size: auto 40px; background-repeat: no-repeat; background-position: 0 50%;}
 footer p:after{content:""; display: block; position: absolute; top:0; right:0; width: 50px; height: 100%; background-image: url(../images/h1-slider1-img-2.png); background-size: auto 40px; background-repeat: no-repeat; background-position: 100% 50%;}
 
@@ -219,5 +223,3 @@ footer p:after{content:""; display: block; position: absolute; top:0; right:0; w
 
 
 
-
-#partner .wrap .cont_part ul li a{display: block; height: 220px; background-size: 80% auto; background-repeat: no-repeat; background-position: 50% 50%;}
